@@ -1,0 +1,10 @@
+artifact_location: file:///Users/siddharth/Desktop/PYTORCH/fraud-detection-ml-with-mlflow/mlruns/0/models/m-ed2d28d60cdd4d0590e3c42ae96ef8ee/artifacts
+creation_timestamp: 1773618459013
+experiment_id: '0'
+last_updated_timestamp: 1773618460710
+model_id: m-ed2d28d60cdd4d0590e3c42ae96ef8ee
+model_type: null
+name: fraud_model
+source_run_id: 3c632b8c28764c98bc79f59756f659a6
+status: 2
+status_message: null
