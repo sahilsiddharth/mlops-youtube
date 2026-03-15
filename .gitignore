@@ -8,8 +8,8 @@ env/
 .env
 
 # Data
-data/raw/
-data/processed/
+data/raw/*
+data/processed/*
 
 # Models
 models/
