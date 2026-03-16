@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/siddharth/Desktop/PYTORCH/fraud-detection-ml-with-mlflow/mlruns/707297393492783910/f631286d4b7b4d5f9a8214706f8f832f/artifacts
+end_time: 1773657210398
+entry_point_name: ''
+experiment_id: '707297393492783910'
+lifecycle_stage: active
+run_id: f631286d4b7b4d5f9a8214706f8f832f
+run_name: dapper-mare-951
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1773657210310
+status: 4
+tags: []
+user_id: siddharth

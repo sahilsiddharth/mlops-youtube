@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/siddharth/Desktop/PYTORCH/fraud-detection-ml-with-mlflow/mlruns/707297393492783910/d3d2f132dbea433cacba08edd1a45788/artifacts
+end_time: 1773657812767
+entry_point_name: ''
+experiment_id: '707297393492783910'
+lifecycle_stage: active
+run_id: d3d2f132dbea433cacba08edd1a45788
+run_name: merciful-fowl-810
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1773657807422
+status: 3
+tags: []
+user_id: siddharth

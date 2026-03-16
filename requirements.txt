@@ -1,0 +1,16 @@
+optuna
+imbalanced-learn
+xgboost
+joblib
+pandas
+numpy
+scikit-learn
+xgboost
+optuna
+mlflow
+fastapi
+uvicorn
+pydantic
+pytest
+evidently
+python-dotenv

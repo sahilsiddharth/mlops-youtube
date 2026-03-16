@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/siddharth/Desktop/PYTORCH/fraud-detection-ml-with-mlflow/mlruns/707297393492783910/7c5a1643d3104a4e80f7c4c1eb3ab84e/artifacts
+end_time: 1773657807419
+entry_point_name: ''
+experiment_id: '707297393492783910'
+lifecycle_stage: active
+run_id: 7c5a1643d3104a4e80f7c4c1eb3ab84e
+run_name: delicate-fox-663
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1773657801399
+status: 3
+tags: []
+user_id: siddharth

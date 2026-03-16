@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/siddharth/Desktop/PYTORCH/fraud-detection-ml-with-mlflow/mlruns/707297393492783910/c627e37dd7d14a1c8f0fbe10fb6e8b7b/artifacts
+end_time: 1773657838270
+entry_point_name: ''
+experiment_id: '707297393492783910'
+lifecycle_stage: active
+run_id: c627e37dd7d14a1c8f0fbe10fb6e8b7b
+run_name: silent-horse-896
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1773657834199
+status: 3
+tags: []
+user_id: siddharth

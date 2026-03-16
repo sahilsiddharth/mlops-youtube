@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/siddharth/Desktop/PYTORCH/fraud-detection-ml-with-mlflow/mlruns/707297393492783910/3c43f454f3e242b48e3d4992b700ee5b/artifacts
+end_time: 1773657848177
+entry_point_name: ''
+experiment_id: '707297393492783910'
+lifecycle_stage: active
+run_id: 3c43f454f3e242b48e3d4992b700ee5b
+run_name: glamorous-auk-299
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1773657843559
+status: 3
+tags: []
+user_id: siddharth

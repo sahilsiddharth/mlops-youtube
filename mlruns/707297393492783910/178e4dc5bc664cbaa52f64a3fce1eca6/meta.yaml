@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/siddharth/Desktop/PYTORCH/fraud-detection-ml-with-mlflow/mlruns/707297393492783910/178e4dc5bc664cbaa52f64a3fce1eca6/artifacts
+end_time: 1773654995586
+entry_point_name: ''
+experiment_id: '707297393492783910'
+lifecycle_stage: active
+run_id: 178e4dc5bc664cbaa52f64a3fce1eca6
+run_name: sincere-ant-355
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1773654995520
+status: 4
+tags: []
+user_id: siddharth

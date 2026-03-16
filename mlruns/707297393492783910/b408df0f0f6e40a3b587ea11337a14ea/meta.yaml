@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/siddharth/Desktop/PYTORCH/fraud-detection-ml-with-mlflow/mlruns/707297393492783910/b408df0f0f6e40a3b587ea11337a14ea/artifacts
+end_time: 1773657856460
+entry_point_name: ''
+experiment_id: '707297393492783910'
+lifecycle_stage: active
+run_id: b408df0f0f6e40a3b587ea11337a14ea
+run_name: silent-worm-716
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1773657852799
+status: 3
+tags: []
+user_id: siddharth

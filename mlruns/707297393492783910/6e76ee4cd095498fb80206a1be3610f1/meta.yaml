@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/siddharth/Desktop/PYTORCH/fraud-detection-ml-with-mlflow/mlruns/707297393492783910/6e76ee4cd095498fb80206a1be3610f1/artifacts
+end_time: 1773657798457
+entry_point_name: ''
+experiment_id: '707297393492783910'
+lifecycle_stage: active
+run_id: 6e76ee4cd095498fb80206a1be3610f1
+run_name: invincible-sheep-462
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1773657794673
+status: 3
+tags: []
+user_id: siddharth

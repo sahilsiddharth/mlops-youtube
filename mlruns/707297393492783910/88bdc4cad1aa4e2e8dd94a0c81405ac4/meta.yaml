@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/siddharth/Desktop/PYTORCH/fraud-detection-ml-with-mlflow/mlruns/707297393492783910/88bdc4cad1aa4e2e8dd94a0c81405ac4/artifacts
+end_time: 1773657818334
+entry_point_name: ''
+experiment_id: '707297393492783910'
+lifecycle_stage: active
+run_id: 88bdc4cad1aa4e2e8dd94a0c81405ac4
+run_name: dazzling-bear-381
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1773657812769
+status: 3
+tags: []
+user_id: siddharth

@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/siddharth/Desktop/PYTORCH/fraud-detection-ml-with-mlflow/mlruns/707297393492783910/a06a45b494bd40ea944f4781157445a4/artifacts
+end_time: 1773657826534
+entry_point_name: ''
+experiment_id: '707297393492783910'
+lifecycle_stage: active
+run_id: a06a45b494bd40ea944f4781157445a4
+run_name: rebellious-moth-454
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1773657822375
+status: 3
+tags: []
+user_id: siddharth

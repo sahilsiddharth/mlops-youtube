@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/siddharth/Desktop/PYTORCH/fraud-detection-ml-with-mlflow/mlruns/707297393492783910/768b4c762e724c4fbc460d5b01562d51/artifacts
+end_time: 1773657834195
+entry_point_name: ''
+experiment_id: '707297393492783910'
+lifecycle_stage: active
+run_id: 768b4c762e724c4fbc460d5b01562d51
+run_name: burly-crane-768
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1773657829252
+status: 3
+tags: []
+user_id: siddharth

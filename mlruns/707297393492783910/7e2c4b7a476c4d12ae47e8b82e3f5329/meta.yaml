@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/siddharth/Desktop/PYTORCH/fraud-detection-ml-with-mlflow/mlruns/707297393492783910/7e2c4b7a476c4d12ae47e8b82e3f5329/artifacts
+end_time: 1773657785345
+entry_point_name: ''
+experiment_id: '707297393492783910'
+lifecycle_stage: active
+run_id: 7e2c4b7a476c4d12ae47e8b82e3f5329
+run_name: charming-doe-840
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1773657779743
+status: 3
+tags: []
+user_id: siddharth

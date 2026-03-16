@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/siddharth/Desktop/PYTORCH/fraud-detection-ml-with-mlflow/mlruns/707297393492783910/50d6133ffcde4a1eb31aaa61038180c4/artifacts
+end_time: 1773657868616
+entry_point_name: ''
+experiment_id: '707297393492783910'
+lifecycle_stage: active
+run_id: 50d6133ffcde4a1eb31aaa61038180c4
+run_name: mysterious-bass-572
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1773657864893
+status: 3
+tags: []
+user_id: siddharth

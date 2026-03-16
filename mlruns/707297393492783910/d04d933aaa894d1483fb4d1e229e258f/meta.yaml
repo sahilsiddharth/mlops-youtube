@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/siddharth/Desktop/PYTORCH/fraud-detection-ml-with-mlflow/mlruns/707297393492783910/d04d933aaa894d1483fb4d1e229e258f/artifacts
+end_time: 1773657829247
+entry_point_name: ''
+experiment_id: '707297393492783910'
+lifecycle_stage: active
+run_id: d04d933aaa894d1483fb4d1e229e258f
+run_name: carefree-colt-842
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1773657826539
+status: 3
+tags: []
+user_id: siddharth

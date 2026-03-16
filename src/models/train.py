@@ -1,4 +1,5 @@
 import joblib
+import optuna
 from xgboost import XGBClassifier
 from sklearn.metrics import (
     accuracy_score,
@@ -11,18 +12,23 @@ from sklearn.metrics import (
 import mlflow
 import mlflow.xgboost
 mlflow.set_tracking_uri("file:./mlruns")
-def train_model(X_train,y_train,X_test,y_test):
-    with mlflow.start_run():
-        model = XGBClassifier(
-            n_estimators=200,
-            max_depth=6,
-            learning_rate=0.05,
-            subsample=0.8,
-            colsample_bytree=0.8,
-            random_state=42,
-            n_jobs=-1
-        )
+mlflow.set_experiment("Fraud Detection")
 
+def Objective(trial,X_train,y_train,X_test,y_test):
+    params={
+        "n_estimators": trial.suggest_int("n_estimators",100,500),
+        "max_depth": trial.suggest_int("max_depth",3,10),
+        "learning_rate": trial.suggest_float("learning_rate",0.01,0.2),
+        "subsample": trial.suggest_float("subsample", 0.6, 1.0),
+        "colsample_bytree": trial.suggest_float("colsample_bytree", 0.6, 1.0),
+        "random_state": 42,
+        "n_jobs": -1
+    }
+
+    with mlflow.start_run():
+        mlflow.log_params(params)
+        model = XGBClassifier(**params)
+        
         model.fit(X_train, y_train)
         preds = model.predict(X_test)
         probs = model.predict_proba(X_test)[:, 1]
@@ -40,10 +46,7 @@ def train_model(X_train,y_train,X_test,y_test):
         print(f"F1 Score: {f1}")
         print(f"ROC-AUC: {roc_auc}")
 
-        ## log parameter
-        mlflow.log_param("n_estimator",200)
-        mlflow.log_param("max_depth",6)
-        mlflow.log_param("learning_rate",0.05)
+        
 
         ## log metrics
         mlflow.log_metric("accuracy",accuracy)
@@ -55,12 +58,16 @@ def train_model(X_train,y_train,X_test,y_test):
         # log model
         mlflow.xgboost.log_model(model, "fraud_model")
 
-    return model
+    return roc_auc
 
 
 
-def save_model(model, path="models/fraud_model.pkl"):
+def run_optuna(X_train,X_test,y_train,y_test):
+    study=optuna.create_study(direction="maximize")
+    study.optimize(
+        lambda trial:Objective(trial,X_train,y_train,X_test,y_test),
+        n_trials=20
+    )
+    print("Best trial:", study.best_trial.params)
 
-    joblib.dump(model, path)
-
-    print(f"\nModel saved at {path}")
+    return study.best_trial.params

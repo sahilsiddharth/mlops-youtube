@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/siddharth/Desktop/PYTORCH/fraud-detection-ml-with-mlflow/mlruns/707297393492783910/8cd8cb984695478e8763dd7b9ece8caf/artifacts
+end_time: 1773657852795
+entry_point_name: ''
+experiment_id: '707297393492783910'
+lifecycle_stage: active
+run_id: 8cd8cb984695478e8763dd7b9ece8caf
+run_name: treasured-gnu-213
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1773657848182
+status: 3
+tags: []
+user_id: siddharth
