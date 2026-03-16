@@ -14,3 +14,5 @@ pydantic
 pytest
 evidently
 python-dotenv
+fastapi
+uvicorn
