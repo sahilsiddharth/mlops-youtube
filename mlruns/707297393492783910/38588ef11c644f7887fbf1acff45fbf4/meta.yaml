@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/siddharth/Desktop/PYTORCH/fraud-detection-ml-with-mlflow/mlruns/707297393492783910/38588ef11c644f7887fbf1acff45fbf4/artifacts
+end_time: 1773724638205
+entry_point_name: ''
+experiment_id: '707297393492783910'
+lifecycle_stage: active
+run_id: 38588ef11c644f7887fbf1acff45fbf4
+run_name: fun-rat-623
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1773724636303
+status: 3
+tags: []
+user_id: siddharth

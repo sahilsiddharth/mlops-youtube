@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/siddharth/Desktop/PYTORCH/fraud-detection-ml-with-mlflow/mlruns/707297393492783910/cdedc4ac14154a0daabc55a4d7453c9a/artifacts
+end_time: 1773724683239
+entry_point_name: ''
+experiment_id: '707297393492783910'
+lifecycle_stage: active
+run_id: cdedc4ac14154a0daabc55a4d7453c9a
+run_name: whimsical-grouse-952
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1773724679272
+status: 3
+tags: []
+user_id: siddharth

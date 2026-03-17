@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/siddharth/Desktop/PYTORCH/fraud-detection-ml-with-mlflow/mlruns/707297393492783910/1fe51737b39f4bd3b37accd2e1b148cd/artifacts
+end_time: 1773724644795
+entry_point_name: ''
+experiment_id: '707297393492783910'
+lifecycle_stage: active
+run_id: 1fe51737b39f4bd3b37accd2e1b148cd
+run_name: nimble-robin-96
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1773724641465
+status: 3
+tags: []
+user_id: siddharth

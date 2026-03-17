@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/siddharth/Desktop/PYTORCH/fraud-detection-ml-with-mlflow/mlruns/707297393492783910/f8a8aa0ee6f640e5b39b47c41dc451fc/artifacts
+end_time: 1773724636302
+entry_point_name: ''
+experiment_id: '707297393492783910'
+lifecycle_stage: active
+run_id: f8a8aa0ee6f640e5b39b47c41dc451fc
+run_name: rumbling-bat-502
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1773724634887
+status: 3
+tags: []
+user_id: siddharth

@@ -19,7 +19,7 @@ def main():
     print(y_test)
 
     print("Running Optuna hyperparameter tuning...")
-    best_params = run_optuna(X_train, X_test, y_train, y_test)
+    best_params, best_model = run_optuna(X_train, X_test, y_train, y_test)
 
     print("Best parameters:", best_params)
 

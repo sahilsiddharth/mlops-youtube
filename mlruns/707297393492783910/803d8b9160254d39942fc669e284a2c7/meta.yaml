@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/siddharth/Desktop/PYTORCH/fraud-detection-ml-with-mlflow/mlruns/707297393492783910/803d8b9160254d39942fc669e284a2c7/artifacts
+end_time: 1773724672957
+entry_point_name: ''
+experiment_id: '707297393492783910'
+lifecycle_stage: active
+run_id: 803d8b9160254d39942fc669e284a2c7
+run_name: traveling-goat-461
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1773724670558
+status: 3
+tags: []
+user_id: siddharth

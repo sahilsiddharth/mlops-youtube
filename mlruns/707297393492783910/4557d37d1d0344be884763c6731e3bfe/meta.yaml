@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/siddharth/Desktop/PYTORCH/fraud-detection-ml-with-mlflow/mlruns/707297393492783910/4557d37d1d0344be884763c6731e3bfe/artifacts
+end_time: 1773724674402
+entry_point_name: ''
+experiment_id: '707297393492783910'
+lifecycle_stage: active
+run_id: 4557d37d1d0344be884763c6731e3bfe
+run_name: fortunate-flea-164
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1773724672962
+status: 3
+tags: []
+user_id: siddharth

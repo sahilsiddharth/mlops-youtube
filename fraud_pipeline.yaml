@@ -1,0 +1,37 @@
+# PIPELINE DEFINITION
+# Name: fraud-detection-training-pipeline
+# Description: Train fraud detection model
+components:
+  comp-train-model:
+    executorLabel: exec-train-model
+deploymentSpec:
+  executors:
+    exec-train-model:
+      container:
+        args:
+        - scripts/train_model.py
+        command:
+        - python
+        image: fraud-mlops:v1
+pipelineInfo:
+  description: Train fraud detection model
+  name: fraud-detection-training-pipeline
+root:
+  dag:
+    tasks:
+      train-model:
+        cachingOptions:
+          enableCache: true
+        componentRef:
+          name: comp-train-model
+        taskInfo:
+          name: train-model
+schemaVersion: 2.1.0
+sdkVersion: kfp-2.16.0
+---
+platforms:
+  kubernetes:
+    deploymentSpec:
+      executors:
+        exec-train-model:
+          imagePullPolicy: IfNotPresent

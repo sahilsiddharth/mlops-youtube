@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/siddharth/Desktop/PYTORCH/fraud-detection-ml-with-mlflow/mlruns/707297393492783910/ecba18026e90454fa39b4d65f47e6648/artifacts
+end_time: 1773724648829
+entry_point_name: ''
+experiment_id: '707297393492783910'
+lifecycle_stage: active
+run_id: ecba18026e90454fa39b4d65f47e6648
+run_name: handsome-deer-969
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1773724644797
+status: 3
+tags: []
+user_id: siddharth

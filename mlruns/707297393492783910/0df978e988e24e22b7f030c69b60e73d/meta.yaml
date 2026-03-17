@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/siddharth/Desktop/PYTORCH/fraud-detection-ml-with-mlflow/mlruns/707297393492783910/0df978e988e24e22b7f030c69b60e73d/artifacts
+end_time: 1773724652897
+entry_point_name: ''
+experiment_id: '707297393492783910'
+lifecycle_stage: active
+run_id: 0df978e988e24e22b7f030c69b60e73d
+run_name: stately-stoat-823
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1773724648830
+status: 3
+tags: []
+user_id: siddharth

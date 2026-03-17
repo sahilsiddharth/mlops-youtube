@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/siddharth/Desktop/PYTORCH/fraud-detection-ml-with-mlflow/mlruns/707297393492783910/0cdf65a010884ce4b8d16d4a1c02b7e9/artifacts
+end_time: 1773724679268
+entry_point_name: ''
+experiment_id: '707297393492783910'
+lifecycle_stage: active
+run_id: 0cdf65a010884ce4b8d16d4a1c02b7e9
+run_name: serious-cow-103
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1773724676821
+status: 3
+tags: []
+user_id: siddharth

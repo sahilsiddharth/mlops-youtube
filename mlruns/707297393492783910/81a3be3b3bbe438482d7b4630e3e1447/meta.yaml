@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/siddharth/Desktop/PYTORCH/fraud-detection-ml-with-mlflow/mlruns/707297393492783910/81a3be3b3bbe438482d7b4630e3e1447/artifacts
+end_time: 1773724675200
+entry_point_name: ''
+experiment_id: '707297393492783910'
+lifecycle_stage: active
+run_id: 81a3be3b3bbe438482d7b4630e3e1447
+run_name: orderly-sloth-973
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1773724674406
+status: 3
+tags: []
+user_id: siddharth
